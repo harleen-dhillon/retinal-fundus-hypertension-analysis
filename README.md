@@ -9,7 +9,7 @@ and hypertension classification.
 - Image preprocessing
 - Optic disc detection using active contours
 - OGO-based optic disc parameter optimization
-- Blood vessel segmentation using Res-UNet
+- Blood vessel segmentation using Res-UNet with Jaya-CCBOA
 - CNN-based hypertension classification
 - Model evaluation using classification metrics and ROC curves
 
