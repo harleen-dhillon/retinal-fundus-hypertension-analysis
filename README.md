@@ -1,4 +1,4 @@
-# Retinal Fundus Image Analysis for Hypertension Classification
+### Retinal Fundus Image Analysis for Hypertension Classification
 
 ## Overview
 This project explores retinal fundus image analysis using deep learning
@@ -35,14 +35,23 @@ Dice score improved from 0.445 to 0.842 after OGO optimization.
 - Accuracy: 0.874 ± 0.018
 - AUC: 0.953 ± 0.018
 
-Results are preliminary and should be interpreted in the context of
-the small dataset used.
+## Visual Results
 
-## Technologies
+### Optic Disc Detection
+![Optic Disc Detection](od.png)
+
+### Blood Vessel Segmentation
+![Blood Vessel Segmentation](bvs.png)
+
+### Classification ROC Curve
+![Classification ROC Curve](cls_roc.png)
+
+## Technologies Used
 - Python
 - PyTorch
 - OpenCV
 - NumPy
-- Scikit-learn
 - Matplotlib
-
+- SciPy
+- scikit-image
+- scikit-learn
